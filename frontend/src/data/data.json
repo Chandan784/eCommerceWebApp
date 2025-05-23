@@ -1,0 +1,617 @@
+{
+  "products": [
+    {
+      "id": "prod_001",
+      "title": "Sample Product Title",
+      "slug": "sample-product-title",
+      "description": "Detailed description of the product.",
+      "category": "Electronics",
+      "subCategory": "Mobile Phones",
+      "brand": "BrandName",
+      "price": 999,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 10,
+        "finalPrice": 899
+      },
+      "images": [
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/10.jpg",
+        "https://example.com/images/prod1_2.jpg"
+      ],
+      "stock": {
+        "total": 50,
+        "available": 45
+      },
+      "variants": [
+        {
+          "id": "var_001",
+          "name": "Red / 128GB",
+          "attributes": {
+            "Color": "Red",
+            "Storage": "128GB"
+          },
+          "price": 999,
+          "stock": 10,
+          "sku": "SKU123RED128"
+        }
+      ],
+      "attributes": {
+        "Material": "Plastic",
+        "Battery Life": "10 hours",
+        "Size": "Medium",
+        "Weight": "200g",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.2,
+        "count": 178
+      },
+      "tags": ["mobile", "smartphone", "android"],
+      "seller": {
+        "id": "seller_001",
+        "name": "GadgetWorld",
+        "location": "Bangalore, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 5
+      },
+      "createdAt": "2024-09-01T12:00:00Z",
+      "updatedAt": "2024-09-10T15:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_002",
+      "title": "Premium Smartphone Pro",
+      "slug": "premium-smartphone-pro",
+      "description": "Flagship smartphone with advanced camera and performance.",
+      "category": "Electronics",
+      "subCategory": "Mobile Phones",
+      "brand": "TechMaster",
+      "price": 1299,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 15,
+        "finalPrice": 1104.15
+      },
+      "images": [
+        "https://example.com/images/prod2.jpg",
+        "https://example.com/images/prod2_2.jpg"
+      ],
+      "stock": {
+        "total": 30,
+        "available": 25
+      },
+      "variants": [
+        {
+          "id": "var_002",
+          "name": "Black / 256GB",
+          "attributes": {
+            "Color": "Black",
+            "Storage": "256GB"
+          },
+          "price": 1299,
+          "stock": 15,
+          "sku": "SKU456BLACK256"
+        }
+      ],
+      "attributes": {
+        "Material": "Glass",
+        "Battery Life": "20 hours",
+        "Size": "Large",
+        "Weight": "210g",
+        "Warranty": "2 Years"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.7,
+        "count": 342
+      },
+      "tags": ["flagship", "smartphone", "android"],
+      "seller": {
+        "id": "seller_002",
+        "name": "EliteGadgets",
+        "location": "Mumbai, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 3
+      },
+      "createdAt": "2024-10-05T10:00:00Z",
+      "updatedAt": "2024-10-15T14:20:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_003",
+      "title": "Bluetooth Wireless Earbuds",
+      "slug": "bluetooth-wireless-earbuds",
+      "description": "Crisp sound with noise cancellation and long battery life.",
+      "category": "Electronics",
+      "subCategory": "Audio",
+      "brand": "SoundWave",
+      "price": 199,
+      "currency": "INR",
+      "discount": {
+        "type": "flat",
+        "value": 30,
+        "finalPrice": 169
+      },
+      "images": ["https://example.com/images/prod3.jpg"],
+      "stock": {
+        "total": 100,
+        "available": 85
+      },
+      "variants": [
+        {
+          "id": "var_003",
+          "name": "White",
+          "attributes": {
+            "Color": "White"
+          },
+          "price": 199,
+          "stock": 50,
+          "sku": "SKU789WHITE"
+        }
+      ],
+      "attributes": {
+        "Battery Life": "8 hours",
+        "Charging Case": "Yes",
+        "Water Resistance": "IPX4",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.3,
+        "count": 215
+      },
+      "tags": ["earbuds", "wireless", "bluetooth"],
+      "seller": {
+        "id": "seller_003",
+        "name": "AudioHub",
+        "location": "Delhi, India"
+      },
+      "shipping": {
+        "freeShipping": false,
+        "estimatedDeliveryDays": 7
+      },
+      "createdAt": "2024-08-20T09:15:00Z",
+      "updatedAt": "2024-09-01T11:45:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_004",
+      "title": "Smart Watch X3",
+      "slug": "smart-watch-x3",
+      "description": "Track fitness, receive notifications, and more with this sleek smartwatch.",
+      "category": "Electronics",
+      "subCategory": "Wearables",
+      "brand": "FitTech",
+      "price": 299,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 10,
+        "finalPrice": 269.1
+      },
+      "images": [
+        "https://example.com/images/prod4.jpg",
+        "https://example.com/images/prod4_2.jpg"
+      ],
+      "stock": {
+        "total": 60,
+        "available": 55
+      },
+      "variants": [
+        {
+          "id": "var_004",
+          "name": "Black / Silicone Strap",
+          "attributes": {
+            "Color": "Black",
+            "Strap Type": "Silicone"
+          },
+          "price": 299,
+          "stock": 30,
+          "sku": "SKU101BLACK"
+        }
+      ],
+      "attributes": {
+        "Battery Life": "7 days",
+        "Water Resistance": "IP68",
+        "Compatibility": "Android/iOS",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.0,
+        "count": 156
+      },
+      "tags": ["smartwatch", "fitness", "wearable"],
+      "seller": {
+        "id": "seller_004",
+        "name": "TechTrends",
+        "location": "Hyderabad, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 4
+      },
+      "createdAt": "2024-07-15T08:30:00Z",
+      "updatedAt": "2024-08-01T10:20:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_005",
+      "title": "4K Ultra HD Smart TV",
+      "slug": "4k-ultra-hd-smart-tv",
+      "description": "Immersive viewing experience with stunning 4K resolution and smart features.",
+      "category": "Electronics",
+      "subCategory": "Televisions",
+      "brand": "VisionPlus",
+      "price": 4999,
+      "currency": "INR",
+      "discount": {
+        "type": "flat",
+        "value": 500,
+        "finalPrice": 4499
+      },
+      "images": [
+        "https://example.com/images/prod5.jpg",
+        "https://example.com/images/prod5_2.jpg"
+      ],
+      "stock": {
+        "total": 20,
+        "available": 18
+      },
+      "variants": [
+        {
+          "id": "var_005",
+          "name": "55-inch",
+          "attributes": {
+            "Size": "55-inch"
+          },
+          "price": 4999,
+          "stock": 10,
+          "sku": "SKU202TV55"
+        }
+      ],
+      "attributes": {
+        "Screen Type": "LED",
+        "Resolution": "3840x2160",
+        "Smart Features": "Android TV",
+        "Warranty": "2 Years"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.5,
+        "count": 289
+      },
+      "tags": ["television", "smarttv", "4k"],
+      "seller": {
+        "id": "seller_005",
+        "name": "HomeElectronics",
+        "location": "Chennai, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 7
+      },
+      "createdAt": "2024-06-10T11:00:00Z",
+      "updatedAt": "2024-07-01T09:45:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_006",
+      "title": "Wireless Keyboard and Mouse Combo",
+      "slug": "wireless-keyboard-mouse-combo",
+      "description": "Ergonomic wireless keyboard and mouse set for comfortable computing.",
+      "category": "Electronics",
+      "subCategory": "Computer Accessories",
+      "brand": "PeriTech",
+      "price": 149,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 20,
+        "finalPrice": 119.2
+      },
+      "images": ["https://example.com/images/prod6.jpg"],
+      "stock": {
+        "total": 150,
+        "available": 135
+      },
+      "variants": [
+        {
+          "id": "var_006",
+          "name": "Black",
+          "attributes": {
+            "Color": "Black"
+          },
+          "price": 149,
+          "stock": 80,
+          "sku": "SKU303BLACK"
+        }
+      ],
+      "attributes": {
+        "Connection": "Bluetooth",
+        "Battery Life": "12 months",
+        "Compatibility": "Windows/Mac",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.1,
+        "count": 187
+      },
+      "tags": ["keyboard", "mouse", "wireless"],
+      "seller": {
+        "id": "seller_006",
+        "name": "OfficeGear",
+        "location": "Pune, India"
+      },
+      "shipping": {
+        "freeShipping": false,
+        "estimatedDeliveryDays": 5
+      },
+      "createdAt": "2024-05-12T14:30:00Z",
+      "updatedAt": "2024-06-01T16:20:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_007",
+      "title": "Portable Bluetooth Speaker",
+      "slug": "portable-bluetooth-speaker",
+      "description": "Compact yet powerful speaker with rich bass and 10-hour playback.",
+      "category": "Electronics",
+      "subCategory": "Audio",
+      "brand": "BoomAudio",
+      "price": 249,
+      "currency": "INR",
+      "discount": {
+        "type": "flat",
+        "value": 40,
+        "finalPrice": 209
+      },
+      "images": [
+        "https://example.com/images/prod7.jpg",
+        "https://example.com/images/prod7_2.jpg"
+      ],
+      "stock": {
+        "total": 75,
+        "available": 70
+      },
+      "variants": [
+        {
+          "id": "var_007",
+          "name": "Blue",
+          "attributes": {
+            "Color": "Blue"
+          },
+          "price": 249,
+          "stock": 35,
+          "sku": "SKU404BLUE"
+        }
+      ],
+      "attributes": {
+        "Battery Life": "10 hours",
+        "Water Resistance": "IPX5",
+        "Connectivity": "Bluetooth 5.0",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.4,
+        "count": 231
+      },
+      "tags": ["speaker", "bluetooth", "portable"],
+      "seller": {
+        "id": "seller_007",
+        "name": "SoundHaven",
+        "location": "Kolkata, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 4
+      },
+      "createdAt": "2024-04-18T13:45:00Z",
+      "updatedAt": "2024-05-05T12:30:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_008",
+      "title": "Gaming Laptop",
+      "slug": "gaming-laptop",
+      "description": "High-performance laptop with dedicated graphics for gaming enthusiasts.",
+      "category": "Electronics",
+      "subCategory": "Laptops",
+      "brand": "GameMaster",
+      "price": 8999,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 12,
+        "finalPrice": 7919.12
+      },
+      "images": [
+        "https://example.com/images/prod8.jpg",
+        "https://example.com/images/prod8_2.jpg"
+      ],
+      "stock": {
+        "total": 15,
+        "available": 12
+      },
+      "variants": [
+        {
+          "id": "var_008",
+          "name": "16GB RAM / 1TB SSD",
+          "attributes": {
+            "RAM": "16GB",
+            "Storage": "1TB SSD"
+          },
+          "price": 8999,
+          "stock": 8,
+          "sku": "SKU505GAMER"
+        }
+      ],
+      "attributes": {
+        "Processor": "Intel i7",
+        "Graphics": "RTX 3060",
+        "Display": "15.6\" FHD 144Hz",
+        "Warranty": "2 Years"
+      },
+      "customizable": true,
+      "customizationOptions": {
+        "RAM": ["16GB", "32GB"],
+        "Storage": ["512GB SSD", "1TB SSD", "2TB SSD"]
+      },
+      "rating": {
+        "average": 4.8,
+        "count": 412
+      },
+      "tags": ["gaming", "laptop", "performance"],
+      "seller": {
+        "id": "seller_008",
+        "name": "GamingGear",
+        "location": "Bangalore, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 5
+      },
+      "createdAt": "2024-03-22T10:20:00Z",
+      "updatedAt": "2024-04-10T14:15:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_009",
+      "title": "DSLR Camera",
+      "slug": "dslr-camera",
+      "description": "Professional-grade DSLR camera with 24.2MP sensor and 4K video.",
+      "category": "Electronics",
+      "subCategory": "Cameras",
+      "brand": "PhotoPro",
+      "price": 5999,
+      "currency": "INR",
+      "discount": {
+        "type": "flat",
+        "value": 800,
+        "finalPrice": 5199
+      },
+      "images": [
+        "https://example.com/images/prod9.jpg",
+        "https://example.com/images/prod9_2.jpg"
+      ],
+      "stock": {
+        "total": 25,
+        "available": 20
+      },
+      "variants": [
+        {
+          "id": "var_009",
+          "name": "Body Only",
+          "attributes": {
+            "Lens": "Not Included"
+          },
+          "price": 5999,
+          "stock": 12,
+          "sku": "SKU606DSLR"
+        }
+      ],
+      "attributes": {
+        "Sensor": "24.2MP APS-C",
+        "Video": "4K 30fps",
+        "ISO Range": "100-25600",
+        "Warranty": "2 Years"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.6,
+        "count": 356
+      },
+      "tags": ["camera", "dslr", "photography"],
+      "seller": {
+        "id": "seller_009",
+        "name": "CameraWorld",
+        "location": "Delhi, India"
+      },
+      "shipping": {
+        "freeShipping": true,
+        "estimatedDeliveryDays": 6
+      },
+      "createdAt": "2024-02-14T09:10:00Z",
+      "updatedAt": "2024-03-01T11:25:00Z",
+      "isActive": true
+    },
+    {
+      "id": "prod_010",
+      "title": "Air Fryer",
+      "slug": "air-fryer",
+      "description": "Healthy cooking with 85% less fat using rapid air technology.",
+      "category": "Home Appliances",
+      "subCategory": "Kitchen Appliances",
+      "brand": "KitchenPro",
+      "price": 399,
+      "currency": "INR",
+      "discount": {
+        "type": "percentage",
+        "value": 25,
+        "finalPrice": 299.25
+      },
+      "images": [
+        "https://example.com/images/prod10.jpg",
+        "https://example.com/images/prod10_2.jpg"
+      ],
+      "stock": {
+        "total": 80,
+        "available": 75
+      },
+      "variants": [
+        {
+          "id": "var_010",
+          "name": "4.5L",
+          "attributes": {
+            "Capacity": "4.5 Liters"
+          },
+          "price": 399,
+          "stock": 40,
+          "sku": "SKU707FRYER"
+        }
+      ],
+      "attributes": {
+        "Power": "1500W",
+        "Temperature Range": "80-200°C",
+        "Timer": "60 mins",
+        "Warranty": "1 Year"
+      },
+      "customizable": false,
+      "customizationOptions": null,
+      "rating": {
+        "average": 4.2,
+        "count": 198
+      },
+      "tags": ["airfryer", "kitchen", "healthy"],
+      "seller": {
+        "id": "seller_010",
+        "name": "HomeEssentials",
+        "location": "Mumbai, India"
+      },
+      "shipping": {
+        "freeShipping": false,
+        "estimatedDeliveryDays": 5
+      },
+      "createdAt": "2024-01-05T08:45:00Z",
+      "updatedAt": "2024-02-01T10:30:00Z",
+      "isActive": true
+    }
+  ]
+}
