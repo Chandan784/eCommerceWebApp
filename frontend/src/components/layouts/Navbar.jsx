@@ -8,16 +8,16 @@ function Navbar() {
     justifyContent:"space-between",
     alignItems:"center",
     color:"white",
-    padding:"30px",
-    fontSize:"30px" }}>
-      <div className="left">
-        <h1 className="">Macramee</h1>
+    padding:"20px",
+    fontSize:"13px" }}>
+      <div className="font-bold">
+        <h1 className="">MACRAME</h1>
       </div>
-      <div className="right p-8">
-        <a href="/home" className="p-8">Home</a>
-        <a href="/about"className="p-8">About</a>
-        <a href="/contact"className="p-8">Contact</a>
-        <a href="/service"className="p-8">Service</a>
+      <div className="right p-8 font-bold" >
+        <a href="/home" className="p-7">HOME</a>
+        <a href="/about"className="p-7">ABOUT</a>
+        <a href="/contact"className="p-7">CONTACT</a>
+        <a href="/service"className="p-7">SERVICES</a>
       </div>
     </div>
   );
