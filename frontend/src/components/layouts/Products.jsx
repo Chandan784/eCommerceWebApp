@@ -8,14 +8,14 @@ function Products() {
 
   useEffect(() => {
     setProducts(ProductData.products);
-    console.log(products, "products");
+    console.log(ProductData.products, "products");
   }, [ProductData]);
 
   return (
     <div>
       {products.map((product) => {
         return (
-          <ProductCard
+          <ProductCard key={product.id}
             img={product.images}
             title={product.title}
             price={product.price}
