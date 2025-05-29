@@ -17,7 +17,10 @@
       },
       "images": [
         "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/10.jpg",
-        "https://example.com/images/prod1_2.jpg"
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/5.jpg",
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/4.jpg",
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/2.jpg",
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/1.jpg"
       ],
       "stock": {
         "total": 50,
@@ -79,8 +82,8 @@
         "finalPrice": 1104.15
       },
       "images": [
-        "https://example.com/images/prod2.jpg",
-        "https://example.com/images/prod2_2.jpg"
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/4.jpg",
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/small-image/2.jpg"
       ],
       "stock": {
         "total": 30,
@@ -141,7 +144,7 @@
         "value": 30,
         "finalPrice": 169
       },
-      "images": ["https://example.com/images/prod3.jpg"],
+      "images": ["https://template.hasthemes.com/mioca/mioca/assets/images/product-image/5.jpgs"],
       "stock": {
         "total": 100,
         "available": 85
@@ -262,8 +265,7 @@
         "finalPrice": 4499
       },
       "images": [
-        "https://example.com/images/prod5.jpg",
-        "https://example.com/images/prod5_2.jpg"
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/zoom-image/5.jpg"
       ],
       "stock": {
         "total": 20,
@@ -322,7 +324,7 @@
         "value": 20,
         "finalPrice": 119.2
       },
-      "images": ["https://example.com/images/prod6.jpg"],
+      "images": ["https://template.hasthemes.com/mioca/mioca/assets/images/product-image/3.jpg"],
       "stock": {
         "total": 150,
         "available": 135
@@ -381,8 +383,7 @@
         "finalPrice": 209
       },
       "images": [
-        "https://example.com/images/prod7.jpg",
-        "https://example.com/images/prod7_2.jpg"
+        "https://template.hasthemes.com/mioca/mioca/assets/images/product-image/6.jpg"
       ],
       "stock": {
         "total": 75,
@@ -507,8 +508,7 @@
         "finalPrice": 5199
       },
       "images": [
-        "https://example.com/images/prod9.jpg",
-        "https://example.com/images/prod9_2.jpg"
+        ""
       ],
       "stock": {
         "total": 25,
@@ -568,8 +568,7 @@
         "finalPrice": 299.25
       },
       "images": [
-        "https://example.com/images/prod10.jpg",
-        "https://example.com/images/prod10_2.jpg"
+        ""
       ],
       "stock": {
         "total": 80,
