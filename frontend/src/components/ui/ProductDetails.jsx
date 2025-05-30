@@ -18,11 +18,12 @@ function ProductDetails() {
     return <h1>Loading.......</h1>;
   }
   return (
-    <div className="flex w-full justify-center ">
+    <div className="flex flex-col sm:flex-col md:flex-row w-full justify-center">
+    
       <div className="">
         {
           <img
-            className="h-50 w-80 shadow-2xl shadow-gray-300 m-3"
+            className="h-60 w-full shadow-2xl shadow-gray-300 m-1"
             src={Product?.images[imgIndex]}
             alt=""
           />
@@ -54,6 +55,7 @@ function ProductDetails() {
         <p>{Product?.rating?.average}</p>
         <p>{Product?.description}</p>
         <p>{Product?.category}</p>
+        <button className="rounded border-1 border-blue-400 bg-red-500 text-white text-xs w-20">Add to cart</button>
       </div>
     </div>
   );

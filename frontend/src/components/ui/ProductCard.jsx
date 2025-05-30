@@ -19,26 +19,27 @@ function ProductCard({
     navigate(`/ProductDetails/${id}`);
   }
   return (
-    <div
-      className="font-serif items-center bg-gray-200"
+    <div className="font-serif justify-center"
       onClick={() => {
         handleProductclick(id);
       }}
     >
       
-        <div>
+        <div className="flex flex-col w-50 h-50 ml-7">
           <img
-            className="h-50 w-50 shadow-2xl shadow-gray-300"
+            className="h-50 shadow-2xl shadow-gray-300"
             src={img[0]}
             alt=""
           />
         </div>
-      <h1 className="text-gray-800 font-serif text-l font-bold mt-3 mb-1">
+        <div className="ml-7">
+      <h1 className="text-gray-800 font-serif text-l">
         {title}
       </h1>
       <p>{ratings}</p>
-      <p className="text-red-400 font-bold text-xl mb-1">${price}</p>
-      <button>Add to cart</button>
+      <p className="text-red-400 text-l">${price}</p>
+      <button className="rounded border-1 border-blue-400 bg-red-500 text-white text-xs w-20">Add to cart</button>
+      </div>
     </div>
   );
 }
