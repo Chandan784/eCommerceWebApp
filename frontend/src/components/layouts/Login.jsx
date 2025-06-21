@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { UserContext } from "../../contexts/UserContext";
 
 function Login() {
+  const { setuserName } = useContext(UserContext);
+  const [loginName, setLoginName] = useState("");
+  let navigate = useNavigate();
+
+  const handleSignin = () => {
+    if (loginName) {
+      setuserName(loginName);
+      navigate(`/`);
+    }
+  };
   return (
     <>
       <div className="flex flex-col m-auto mt-3 p-5 h-70 w-70 border-1 border-gray-500 text-xs text-gray-700 font-serif">
@@ -14,6 +26,10 @@ function Login() {
                 type="Text"
                 placeholder="Enter Your Name"
                 className="border-1 border-gray-500 w-full h-7"
+                name="loginName"
+                onChange={(e) => {
+                  setLoginName(e.target.value);
+                }}
               />
             </div>
             <div>
@@ -34,7 +50,10 @@ function Login() {
                 className="border-1 border-gray-500 w-full h-7"
               />
             </div>
-            <button className="justify-center bg-blue-600 text-white w-full mt-3 h-7">
+            <button
+              className="justify-center bg-blue-600 text-white w-full mt-3 h-7"
+              onClick={handleSignin}
+            >
               Sign in
             </button>
           </div>
@@ -43,14 +62,12 @@ function Login() {
               Forget
               <a href="" className="text-blue-500">
                 {" Password"}
-                
               </a>
             </div>
             <div>
               Creat New /
               <a href="" className="text-blue-500">
                 {"Sign in"}
-                
               </a>
             </div>
           </div>
